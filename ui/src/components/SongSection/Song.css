@@ -1,0 +1,15 @@
+.topLevel__Text{
+    text-align: left;
+}
+
+.bottomNav__Button{
+    bottom:0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.css-1qzevvg{
+    justify-content: center !important;
+}

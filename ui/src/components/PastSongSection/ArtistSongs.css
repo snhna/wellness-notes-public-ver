@@ -1,0 +1,25 @@
+.artist_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #e1e1e1;
+}
+
+.artistSongs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.song_artist {
+    margin-left: 12px;
+}
+
+.songs_name {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.artist_name {
+    margin: 0px;
+}

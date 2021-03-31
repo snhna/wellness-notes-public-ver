@@ -1,0 +1,23 @@
+.welcome__topText{
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    font-family: 'Sora', sans-serif;
+}
+
+.select__buttons Button{
+    margin-bottom : 20px;
+    margin-right: 0px;
+    width:200px;
+    background: #A4D9C7;
+    color:#170478
+}
+
+.select__buttons .edit__userButton{
+    margin-bottom : 20px;
+    margin-right: 0px;
+    width:200px;
+    background: #FEFEFE;
+    border : 1px solid #ADADAD;
+    color: #170478 ;
+}

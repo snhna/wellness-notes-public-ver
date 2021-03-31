@@ -1,0 +1,48 @@
+.feel__Logo{
+    position: relative;
+}
+
+.feel__SelectFeel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.feel_SelectButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.feel_SelectButtons Button{
+    margin-bottom : 20px;
+    width:200px;
+    background: #A4D9C7;
+    color:#170478
+}
+
+.bottomNav__Buttons{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.next_icon__Link{
+    background: #A4D9C7;
+    padding :2px 10px;
+    border-radius: 5px;
+}
+
+.back_icon__Link{
+    color:grey;
+}
+
+.tab{ 
+    tab-size: 4; 
+} 
+
+.feelYesNo input[type="radio"] {
+    margin-right: 10px;
+}

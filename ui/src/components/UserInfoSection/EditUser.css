@@ -1,0 +1,49 @@
+.edit__topText{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.bottomNav__Buttons{
+    display: flex;
+    position:absolute;
+    bottom : 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.empty__circle{
+    width: 50px;
+    height:50px;
+    border-radius: 100px;
+
+    background: #e1e1e1;
+}
+
+.loggedIn__information{
+    display: flex;
+    align-items: center;
+}
+
+.login__information{
+    line-height: 12px;
+    margin-left: 12px;
+}
+
+
+.cancel__link{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A047B;
+}
+.save__link{
+    display: block;
+    text-decoration: none;
+    background: #A4D9C7;
+    color: #1A047B;
+    font-size: 20px;
+    font-weight: bold;
+    padding : 5px;
+    border-radius: 5px;
+}
