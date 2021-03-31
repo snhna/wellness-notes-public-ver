@@ -17,7 +17,7 @@ from urllib.parse import urlencode
 import re
 
 
-cluster = MongoClient("mongodb+srv://kamille:Ellimak32@wellness-notes.jy5wo.mongodb.net/cs125?retryWrites=true&w=majority")
+cluster = MongoClient("")
 
 db = cluster["cs125"]
 
@@ -28,14 +28,14 @@ entries = db["entries"]
 app = Flask(__name__)
 CORS(app, support_credentials=True, resources={r"/*": {"origins": "*"}})
 
-a_key = "75b6d6c3aa3d40a2b78ee583225266cd"
-a_endpoint = "https://wellness-notes.cognitiveservices.azure.com/"
-app.secret_key = 'cs125-ks'
+a_key = ""
+a_endpoint = ""
+app.secret_key = ''
 
 # Client info
-SPOTIPY_CLIENT_ID = "286e890d6e734c7f92460f9ac0e28bcc"
+SPOTIPY_CLIENT_ID = ""
 REDIRECT_URI = "http://127.0.0.1:5000/"
-SPOTIPY_CLIENT_SECRET = "7298bd36435e4bd7a042d70fd251df7f"
+SPOTIPY_CLIENT_SECRET = ""
 
 # TOKEN_INFO = "token_info"
 app.config['SESSION_COOKIE_NAME'] = 'spotify-login-session'
